@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Stopwatch</title>
 </head>
@@ -12,22 +15,24 @@
 <body>
     <div class="wrapper">
         <h1>Stopwatch</h1>
-        <div id="time">
-            <p class="digit" id="hour">00</p>
-            <h2 class="text">Hour</h2>
-            <p class="digit" id="minute">00</p>
-            <h2 class="text">Minute</h2>
-            <p class="digit" id="seconds">00</p>
-            <h2 class="text">Seconds</h2>
-            <p class="digit" id="count">00</p>
+        <div class="border-wrap">
+            <div class="stopwatch" id="time">
+                <p class="digit" id="hour">00</p>
+                <h2 class="text">Hour</h2>
+                <p class="digit" id="minute">00</p>
+                <h2 class="text">Minute</h2>
+                <p class="digit" id="seconds">00</p>
+                <h2 class="text">Seconds</h2>
+                <p class="digit" id="count">00</p>
+            </div>
         </div>
-        <div id="buttons">
+        <div class="press" id="buttons">
             <button class="btn" id="start">Start</button>
             <button class="btn" id="stop">Stop</button>
             <button class="btn" id="reset">Reset</button>
         </div>
     </div>
-    <footer>
+    <footer class="footer">
         Made with ♥ by <a target="_blank" href="http://">Marianella Gamboa</a>
     </footer>
     <script src="script.js"></script>

@@ -1,0 +1,78 @@
+:root {
+    --licorice: #14080e;
+    /*my 60% of color*/
+    --english-violet: #49475B;
+    --cadet-gray: #799496;
+    --olivine: #ACC196;
+    --light-green: #E9EB9E;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--licorice);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: var(--olivine);
+}
+
+button {
+    font-size: x-large;
+}
+
+.digit {
+    font-size: x-large;
+}
+
+.border-wrap {
+margin: 5rem 0 4rem 0;
+    border-radius: 100px;
+    padding: .50rem;
+    background: linear-gradient(180deg, var(--olivine) 41%, var(--light-green) 72%);
+}
+
+.stopwatch {
+    border-radius: 100px;
+    border: 10px solid;
+    border-width: 5px;
+    display: flex;
+    grid: auto/auto auto auto;
+    padding: 5rem;
+    /* background-color: var(--licorice); */
+}
+
+.digit {
+    padding: 0 1rem 0 1rem;
+}
+
+.press {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 0 2rem 0 2rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
