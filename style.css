@@ -4,7 +4,9 @@
     --english-violet: #49475B;
     --cadet-gray: #799496;
     --olivine: #ACC196;
+    /* my 30% color */
     --light-green: #E9EB9E;
+    /* my 10% color */
 }
 
 * {
@@ -18,6 +20,7 @@
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: var(--light-green);
 }
 
 body {
@@ -45,7 +48,7 @@ button {
 }
 
 .border-wrap {
-margin: 5rem 0 4rem 0;
+    margin: 5rem 0 4rem 0;
     border-radius: 100px;
     padding: .50rem;
     background: linear-gradient(180deg, var(--olivine) 41%, var(--light-green) 72%);
@@ -74,5 +77,12 @@ margin: 5rem 0 4rem 0;
     padding: 1rem 2rem 1rem 2rem;
     margin: 0 2rem 0 2rem;
     border-radius: 16px;
+    background: var(--english-violet);
+    color: var(--olivine);
     cursor: pointer;
+}
+
+.btn:hover {
+
+    opacity: 55%;
 }
