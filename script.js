@@ -58,7 +58,30 @@ function stopWatch() {
             //all these turn to 0, once every 60 hits
         }
 
+        let hourString = hour;
+        let minuteString = minute;
+        let secondString = second;
+        let countString = count;
 
+        if (hour < 10) {
+            hourString = "0" + hourString;
+        }
+        if (minute < 10) {
+            minuteString = "0" + minuteString;
+        }
+        if (second < 10) {
+            secondString = "0" + secondString;
+        }
+        if (count < 10) {
+            countString = "0" + countString;
+        }
 
+        document.getElementById('hour').innerHTML = hourString;
+        document.getElementById('minute').innerHTML = minuteString;
+        document.getElementById('seconds').innerHTML = secondString;
+        document.getElementById('count').innerHTML = countString;
+        setTimeout(stopWatch, 10);
+        //calling stopWatch
+        //The global setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires.
     }
 }

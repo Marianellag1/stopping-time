@@ -43,8 +43,12 @@ button {
     font-size: x-large;
 }
 
+.text {
+    padding-top: 1.5rem;
+}
+
 .digit {
-    font-size: x-large;
+    font-size: 50px;
 }
 
 .border-wrap {
@@ -60,7 +64,7 @@ button {
     border-width: 5px;
     display: flex;
     grid: auto/auto auto auto;
-    padding: 5rem;
+    padding: 4rem;
     /* background-color: var(--licorice); */
 }
 
