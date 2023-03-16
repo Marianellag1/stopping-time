@@ -23,6 +23,10 @@
     color: var(--light-green);
 }
 
+.footer a {
+    color: var(--cadet-gray);
+}
+
 body {
     min-height: 100vh;
     display: flex;
